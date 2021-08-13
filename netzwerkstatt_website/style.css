@@ -1,0 +1,57 @@
+body {
+    margin: 0px;
+    font-family: fantasy;    
+}
+
+#top {
+    text-align: center;
+}
+
+#logo {
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: repeat(9,1fr);
+
+    align-items: center;
+
+    /* align-items: center;
+    justify-content: space-between; */
+
+    text-align: left;
+    color: black;
+    background-color: white;
+    font-size: 32px;
+    font-weight: bold;
+    margin-top: 16px;
+    margin-left:  0px;
+    margin-bottom: 16px;
+}
+
+.logo-PC {
+    margin-left: 35px;
+    grid-column: 2;
+}
+
+.logo-text {
+   text-align: center;
+    grid-column: 4/7;
+}
+
+#logo-name {
+    font-size: 32px;
+    font-weight: bold;
+    margin: 16px;
+}
+
+#navigation a {
+    color: gray;
+    padding: 4px;
+}
+
+#navigation a:hover {
+    color: red;
+}
+#top-image {
+    margin-top: 18px;
+    text-align: center;
+}
